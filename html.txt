@@ -1,0 +1,24 @@
+<form name="mainf" onsubmit="javascript:dosub();return false;">
+   <div align="center">
+    <table>
+     <tbody><tr>
+      <td><div id="cimg1"><img height="55" src="images/capchs/9.png" width="35"/></div></td>
+      <td><div id="cimg2"><img height="55" src="images/capchs/1.png" width="35"/></div></td>
+      <td><div id="cimg3"><img height="55" src="images/capchs/6.png" width="35"/></div></td>
+      <td><div id="cimg4"><img height="55" src="images/capchs/7.png" width="35"/></div></td>
+      <td><div id="cimg5"> </div></td>
+     </tr>
+    </tbody></table>
+   </div><br/>
+   <div align="center">
+    <input name="capcha" style="width:200px;height:30px;font-size:15px;" type="text" value=""/>
+   </div><br/><br/>
+   <div align="center">
+    <input onclick="javascript:dosub()" style="width:200px;height:30px;font-size:15px;" type="button" value="CONTINUE"/>
+   </div><br/><br/>
+   <div align="center">
+    To get 10 cents, enter the symbols shown in the picture, click "Continue" (or Enter)<br/>
+    If you can recognize symbols, just click
+    "Continue" or Enter
+   </div><br/><br/>
+  </form>
